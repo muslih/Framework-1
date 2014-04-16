@@ -5,8 +5,11 @@ Current directory structure:
     ├── public
     │   ├── assets
     │   │   ├── css
+    │   │   │   ├── ie.css
     │   │   │   ├── main.css
-    │   │   │   └── normalize.css
+    │   │   │   ├── normalize.css
+    │   │   │   ├── print.css
+    │   │   │   └── screen.css
     │   │   ├── img
     │   │   └── js
     │   │       ├── vendor
@@ -35,8 +38,16 @@ Current directory structure:
     │   ├── LICENSE.md
     │   ├── README.md
     │   └── robots.txt
+    ├── sass
     ├── src
     │   ├── coffee
     │   └── scss
+    │       ├── _layout
+    │       ├── _partials
+    │       ├── _vendor
+    │       ├── ie.scss
+    │       ├── print.scss
+    │       └── screen.scss
+    ├── config.rb
     ├── Guardfile
     └── README.md
