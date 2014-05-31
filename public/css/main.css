@@ -433,3 +433,50 @@ td,
 th {
   padding: 0;
 }
+
+/* line 56, ../../src/scss/main.scss */
+aside {
+  width: 24.25%;
+  float: left;
+  display: inline-box;
+  min-height: 1px;
+  position: relative;
+  margin-right: 1%;
+}
+/* line 25, ../../src/scss/core/mixins/layout_mixins.scss */
+aside > * {
+  padding: 0 0.5em;
+}
+
+/* line 59, ../../src/scss/main.scss */
+section {
+  width: 74.75%;
+  float: left;
+  display: inline-box;
+  min-height: 1px;
+  position: relative;
+  margin-right: 1%;
+}
+/* line 25, ../../src/scss/core/mixins/layout_mixins.scss */
+section > * {
+  padding: 0 0.5em;
+}
+
+/* line 62, ../../src/scss/main.scss */
+.wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  *zoom: 1;
+}
+/* line 8, ../../src/scss/core/mixins/layout_mixins.scss */
+.wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 13, ../../src/scss/core/mixins/layout_mixins.scss */
+.wrap :last-child {
+  margin-right: 0;
+}

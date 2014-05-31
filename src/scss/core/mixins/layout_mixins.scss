@@ -1,5 +1,35 @@
-@mixin col($span, $kolom:$columns, $jarak:$gutter) {
+// mixin untuk baris
+@mixin row {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: $wrap-width;
+	*zoom: 1;
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	& :last-child {
+		margin-right: 0;
+	}
+}
+
+// mixin untuk kolom
+@mixin col {
+	float: left;
+	display: inline-box;
+	min-height: 1px;
+	position: relative;
+	margin-right: $gutter * 1%;
+	> * {
+		padding: 0 0.5em;
+	}
+}
+
+// mixin untuk kolom
+@mixin no($span, $kolom:$columns, $jarak:$gutter) {
 	$col: abs(100 - ($kolom - 1) * $gutter) / $kolom;
 	width: (($col * $span) + ($jarak * ($span - 1))) * 1%;
-	@extend %col;
+	@include col;
 }
