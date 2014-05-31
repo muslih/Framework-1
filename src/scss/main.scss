@@ -2,5 +2,53 @@
 // #compass
 @import "compass/css3";
 
+// core
+@import "core/variable";
+@import "core/mixins";
+
 // #basis
 @import "basis/normalize";
+
+// komponen default awal
+@import "komponen/default/scaffolding";
+@import "komponen/default/tipografi";
+@import "komponen/default/kode";  //style untuk code dengan tag <pre> 
+@import "komponen/default/layout";
+@import "komponen/default/tabel";
+@import "komponen/default/form";
+@import "komponen/default/tombol";
+
+
+// komponen komponen halaman
+@import "komponen/tambahan/component-animations";
+@import "komponen/tambahan/dropdowns";
+@import "komponen/tambahan/button-groups";
+@import "komponen/tambahan/input-groups";
+@import "komponen/tambahan/navs";
+@import "komponen/tambahan/navbar";
+@import "komponen/tambahan/breadcrumbs";
+@import "komponen/tambahan/pagination";
+@import "komponen/tambahan/pager";
+@import "komponen/tambahan/labels";
+@import "komponen/tambahan/badges";
+@import "komponen/tambahan/jumbotron";
+@import "komponen/tambahan/thumbnails";
+@import "komponen/tambahan/alerts";
+@import "komponen/tambahan/progress-bars";
+@import "komponen/tambahan/media";
+@import "komponen/tambahan/list-group";
+@import "komponen/tambahan/panels";
+@import "komponen/tambahan/responsive-embed";
+@import "komponen/tambahan/wells";
+@import "komponen/tambahan/close";
+
+// komponen-komponen dengan javascript
+@import "komponen/javascript/modals";
+@import "komponen/javascript/tooltip";
+@import "komponen/javascript/popovers";
+@import "komponen/javascript/carousel";
+
+//utility seperti clearfix dll
+@import "utilities/main";
+@import "utilities/webfont";
+@import "utilities/responsive-utilities";
