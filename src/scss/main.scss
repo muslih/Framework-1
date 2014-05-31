@@ -2,5 +2,52 @@
 // #compass
 @import "compass/css3";
 
+// core
+@import "core/variable";
+@import "core/mixins";
+
 // #basis
 @import "basis/normalize";
+
+// style default awal
+@import "default/scaffolding";
+@import "default/tipe";
+@import "default/kode";
+@import "default/layout";
+@import "default/tabel";
+@import "default/form";
+@import "default/tombol";
+
+
+// komponen komponen halaman
+@import "tambahan/component-animations";
+@import "tambahan/dropdowns";
+@import "tambahan/button-groups";
+@import "tambahan/input-groups";
+@import "tambahan/navs";
+@import "tambahan/navbar";
+@import "tambahan/breadcrumbs";
+@import "tambahan/pagination";
+@import "tambahan/pager";
+@import "tambahan/labels";
+@import "tambahan/badges";
+@import "tambahan/jumbotron";
+@import "tambahan/thumbnails";
+@import "tambahan/alerts";
+@import "tambahan/progress-bars";
+@import "tambahan/media";
+@import "tambahan/list-group";
+@import "tambahan/panels";
+@import "tambahan/responsive-embed";
+@import "tambahan/wells";
+@import "tambahan/close";
+
+// komponen-komponen dengan javascript
+@import "javascript/modals";
+@import "javascript/tooltip";
+@import "javascript/popovers";
+@import "javascript/carousel";
+
+// tambahan-tambahan lain seperti clearfix dll
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
