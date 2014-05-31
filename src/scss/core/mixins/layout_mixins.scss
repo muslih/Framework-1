@@ -1,0 +1,5 @@
+@mixin col($span, $kolom:$columns, $jarak:$gutter) {
+	$col: abs(100 - ($kolom - 1) * $gutter) / $kolom;
+	width: (($col * $span) + ($jarak * ($span - 1))) * 1%;
+	@extend %col;
+}
