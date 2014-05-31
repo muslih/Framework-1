@@ -42,13 +42,13 @@
 @import "komponen/tambahan/wells";
 @import "komponen/tambahan/close";
 
-// komponen-komponen dengan komponen/javascript
+// komponen-komponen dengan javascript
 @import "komponen/javascript/modals";
 @import "komponen/javascript/tooltip";
 @import "komponen/javascript/popovers";
 @import "komponen/javascript/carousel";
 
-// tambahan-tambahan lain seperti clearfix dll
-@import "komponen/tambahan/utilities";
-@import "komponen/tambahan/webfont";
-@import "komponen/tambahan/responsive-utilities";
+//utility seperti clearfix dll
+@import "utility/main";
+@import "utilities/webfont";
+@import "utilities/responsive-utilities";
