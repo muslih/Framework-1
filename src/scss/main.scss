@@ -9,38 +9,38 @@
 // #basis
 @import "basis/normalize";
 
-// style default awal
-@import "default/scaffolding";
-@import "default/tipografi";
-@import "default/kode";  //style untuk code dengan tag <pre> 
-@import "default/layout";
-@import "default/tabel";
-@import "default/form";
-@import "default/tombol";
+// komponen default awal
+@import "komponen/default/scaffolding";
+@import "komponen/default/tipografi";
+@import "komponen/default/kode";  //style untuk code dengan tag <pre> 
+@import "komponen/default/layout";
+@import "komponen/default/tabel";
+@import "komponen/default/form";
+@import "komponen/default/tombol";
 
 
 // komponen komponen halaman
-@import "tambahan/component-animations";
-@import "tambahan/dropdowns";
-@import "tambahan/button-groups";
-@import "tambahan/input-groups";
-@import "tambahan/navs";
-@import "tambahan/navbar";
-@import "tambahan/breadcrumbs";
-@import "tambahan/pagination";
-@import "tambahan/pager";
-@import "tambahan/labels";
-@import "tambahan/badges";
-@import "tambahan/jumbotron";
-@import "tambahan/thumbnails";
-@import "tambahan/alerts";
-@import "tambahan/progress-bars";
-@import "tambahan/media";
-@import "tambahan/list-group";
-@import "tambahan/panels";
-@import "tambahan/responsive-embed";
-@import "tambahan/wells";
-@import "tambahan/close";
+@import "komponen/tambahan/component-animations";
+@import "komponen/tambahan/dropdowns";
+@import "komponen/tambahan/button-groups";
+@import "komponen/tambahan/input-groups";
+@import "komponen/tambahan/navs";
+@import "komponen/tambahan/navbar";
+@import "komponen/tambahan/breadcrumbs";
+@import "komponen/tambahan/pagination";
+@import "komponen/tambahan/pager";
+@import "komponen/tambahan/labels";
+@import "komponen/tambahan/badges";
+@import "komponen/tambahan/jumbotron";
+@import "komponen/tambahan/thumbnails";
+@import "komponen/tambahan/alerts";
+@import "komponen/tambahan/progress-bars";
+@import "komponen/tambahan/media";
+@import "komponen/tambahan/list-group";
+@import "komponen/tambahan/panels";
+@import "komponen/tambahan/responsive-embed";
+@import "komponen/tambahan/wells";
+@import "komponen/tambahan/close";
 
 // komponen-komponen dengan javascript
 @import "javascript/modals";
@@ -49,6 +49,6 @@
 @import "javascript/carousel";
 
 // tambahan-tambahan lain seperti clearfix dll
-@import "tambahan/utilities";
-@import "tambahan/webfont";
-@import "tambahan/responsive-utilities";
+@import "komponen/tambahan/utilities";
+@import "komponen/tambahan/webfont";
+@import "komponen/tambahan/responsive-utilities";
